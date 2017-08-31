@@ -1,0 +1,11 @@
+	LD B,19H
+	LD C,00H
+	LD D,B
+	LD A,(BC)
+	LD HL,1910H
+	LD E,(HL)
+	LD IX,1915H
+	LD B,(IX+0)
+	LD C,(IX+5)
+	HALT
+.END
