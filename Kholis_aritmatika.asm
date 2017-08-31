@@ -1,0 +1,7 @@
+	LD A, 21H
+	LD B, 85H
+	LD C, 45H
+	LD D, 55H
+	SUB A
+	HALT
+	.END
